@@ -1,0 +1,129 @@
+.package-container {
+  width: 350px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #848e9f;
+  background-color: var(--light);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.package-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-bottom: auto;
+}
+
+.package-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(29, 42, 77, 0.8);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.package-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center !important;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.package-header h2 {
+  color: var(--primary);
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.package-header h1 {
+  font-size: 3rem;
+  color: #fff;
+  position: relative;
+}
+
+.package-header .span1 {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 5px;
+  left: 10%;
+}
+
+.package-header .span2 {
+  font-size: 1.2rem;
+}
+
+.package-services {
+  margin: auto;
+  margin-bottom: 5rem;
+  padding-bottom: 3rem;
+}
+
+.package-services p {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .package-container {
+    width: 750px;
+  }
+
+  .package-image {
+    width: 750px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .package-container {
+    width: 550px;
+  }
+
+  .package-image {
+    width: 550px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .package-container {
+    width: 350px;
+  }
+
+  .package-image {
+    width: 350px;
+    height: 400px;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .package-container {
+    width: 250px;
+  }
+
+  .package-image {
+    width: 250px;
+    height: 400px;
+    margin-bottom: 3rem;
+  }
+}

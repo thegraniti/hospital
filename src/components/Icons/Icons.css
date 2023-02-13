@@ -1,0 +1,77 @@
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-icon {
+  width: 350px;
+  height: 200px;
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon i {
+  padding: 1.5rem;
+  background-color: var(--primary);
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.contact-icon p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1d2a4d;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1750px) {
+  .contact-icon {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .contact-icon {
+    width: 200px;
+    height: 200px;
+  }
+
+  .contact-icon i {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .contact-icon p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-icons {
+    flex-direction: column;
+  }
+
+  .contact-icon {
+    width: 250px;
+    height: 200px;
+    margin-top: 1rem;
+  }
+
+  .contact-icon i {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .contact-icon p {
+    font-size: 0.7rem;
+  }
+}

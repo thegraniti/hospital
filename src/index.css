@@ -1,0 +1,29 @@
+:root {
+  --primary: #13c5dd;
+  --secondary: #354f8e;
+  --light: #eff5f9;
+  --dark: #1d2a4d;
+  --roboto-font: "Roboto", sans-serif;
+  --condensed-font: "Roboto Condensed", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--condensed-font);
+}

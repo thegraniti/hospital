@@ -1,0 +1,129 @@
+.section {
+  width: 60%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.button-1 {
+  border: none;
+  outline: none;
+  padding: 16px 48px;
+  border-radius: 30px;
+  transition: all 1s ease-in-out;
+  background-color: var(--light);
+  font-weight: 700;
+  margin-left: 1rem;
+}
+
+.button-2 {
+  border: 1px solid #fff;
+  outline: none;
+  padding: 16px 48px;
+  border-radius: 30px;
+  background-color: transparent;
+  color: #fff;
+  margin-left: 1.5rem;
+  font-weight: bold;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+}
+
+.button-3 {
+  border: none;
+  outline: none;
+  padding: 16px 48px;
+  border-radius: 30px;
+  transition: all 1s ease-in-out;
+  background-color: var(--primary);
+  color: #fff;
+  font-weight: 700;
+  margin-left: 1rem;
+  transition: all 1s ease-in-out;
+}
+
+.button-4 {
+  border: none;
+  outline: none;
+  padding: 20px 40px;
+  border-radius: 30px;
+  transition: all 1s ease-in-out;
+  background-color: var(--primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.button-6 {
+  border: none;
+  outline: none;
+  padding: 20px 40px;
+  border-radius: 30px;
+  transition: all 1s ease-in-out;
+  background-color: #fff;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  margin-left: 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.button-1:hover {
+  background-color: var(--primary);
+}
+
+.button-2:hover {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.button-3:hover {
+  background-color: var(--secondary);
+}
+
+.button-4:hover {
+  box-shadow: 0 8px 6px -6px #555555;
+  color: #000;
+}
+
+.button-6:hover {
+  box-shadow: 0 8px 6px -6px #555555;
+  color: #000;
+  background-color: var(--primary);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--primary);
+  border-bottom: 5px solid #dee2e6;
+  width: fit-content;
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 2rem !important;
+  }
+}

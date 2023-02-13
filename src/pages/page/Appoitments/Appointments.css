@@ -1,0 +1,60 @@
+.appointments-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.appointments-header{
+    text-align: start;
+    width: 624px;
+}
+
+.appointments-header h2{
+    margin-right:auto ;
+}
+
+.appointments-header p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #848E9F;
+    margin-bottom: 3rem;
+    width: 88%;
+    margin-right: auto;
+}
+
+.appointments-form{
+    width: 624px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: auto;
+}
+
+.buttons:first-child{
+    margin-left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .appointments-container{
+       flex-direction: column;
+        
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    
+.appointments-header{
+    width: 424px;
+}
+  
+.appointments-form{
+    width: 424px;
+}
+
+}

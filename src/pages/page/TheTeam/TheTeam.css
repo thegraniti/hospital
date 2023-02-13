@@ -1,0 +1,8 @@
+.react-multiple-carousel__arrow {
+  background-color: var(--primary);
+}
+
+.react-multiple-carousel__arrow:hover {
+  background-color: var(--primary);
+  box-shadow: 0 8px 6px -6px #555555;
+}

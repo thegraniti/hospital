@@ -1,0 +1,57 @@
+.hero-section {
+  background-image: url("../../assets/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.hero-container {
+  margin-top: 5rem;
+}
+
+.hero-container h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.hero-container div {
+  padding-bottom: 3rem;
+}
+
+.padding {
+  margin-top: 14rem;
+}
+
+@media screen and (max-width: 1350px) {
+  .hero-container h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .hero-container h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .hero-container h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 10px 28px;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .btn {
+    margin-top: 1rem;
+  }
+}
